@@ -28,7 +28,7 @@
             $("#div1").text("BRU");
         });
         $("btn2").bind("clink",()=>(
-            $(".in1").val("BRU");
+            $(".in1").val("BRU")
         ));
         $("#btn3").click(()=>{
             $(".in1:ever").toggleClass("red"); 
